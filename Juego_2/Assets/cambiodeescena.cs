@@ -15,6 +15,6 @@ public class cambiodeescena : MonoBehaviour
     //}
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("nivel2");
     }
 }
