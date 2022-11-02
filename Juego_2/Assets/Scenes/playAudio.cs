@@ -10,7 +10,7 @@ public class playAudio : MonoBehaviour
     void Start()
     {
         audioSource.pitch = 0.5f;
-        audioSource.volume= 0.5f;
+        audioSource.volume= 0.1f;
         audioSource.Play();
     }
 

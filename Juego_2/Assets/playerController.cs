@@ -25,6 +25,6 @@ public class playerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        player.Move(new Vector3(horizontal, 0, vertical) * velocidad * Time.deltaTime);
+        player.Move(new Vector3(horizontal, 0.0f, vertical) * velocidad * Time.deltaTime);
     }
 }
