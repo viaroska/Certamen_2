@@ -9,7 +9,7 @@ public class destruir : MonoBehaviour
     {
         if (other.gameObject.tag == "eliminar")
          //   Destroy(other.gameObject);
- print("jugador eliminado");
+            print("jugador Elimando fue tocado por el enemigo");
         SceneManager.LoadScene("SampleScene 1");
        
     }

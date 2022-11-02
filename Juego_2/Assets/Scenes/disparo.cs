@@ -12,13 +12,7 @@ public class disparo : MonoBehaviour
 
     public GameObject bullet;
 
-    /// <summary>
-    //////////////////////////////////////////////////////77
-    /// </summary>
-
-    ///////////////////////////////////////////777
-
-
+    
     // int contador;
     public float shotForce = 1500f;
     public float shotRate = 0.5f;
