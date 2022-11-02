@@ -18,5 +18,6 @@ public class localizador2 : MonoBehaviour
     void Update()
     {
         agente.destination = objetivo.position;
+
     }
 }

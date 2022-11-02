@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 63718486}
   m_Layer: 0
   m_Name: player1
-  m_TagString: Untagged
+  m_TagString: eliminar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -511,6 +511,7 @@ GameObject:
   - component: {fileID: 142804072}
   - component: {fileID: 142804076}
   - component: {fileID: 142804071}
+  - component: {fileID: 142804077}
   m_Layer: 0
   m_Name: esfera
   m_TagString: Untagged
@@ -630,6 +631,18 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &142804077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142804070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee00b0ef2bf792f40a39d23cf0de4fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &170853176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1908,6 +1921,7 @@ GameObject:
   - component: {fileID: 783134374}
   - component: {fileID: 783134373}
   - component: {fileID: 783134372}
+  - component: {fileID: 783134378}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -2028,6 +2042,18 @@ Transform:
   m_Father: {fileID: 1606616110}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &783134378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783134371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee00b0ef2bf792f40a39d23cf0de4fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &785398013
 GameObject:
   m_ObjectHideFlags: 0
@@ -3787,6 +3813,7 @@ GameObject:
   - component: {fileID: 2117247667}
   - component: {fileID: 2117247666}
   - component: {fileID: 2117247665}
+  - component: {fileID: 2117247671}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -3907,3 +3934,15 @@ Transform:
   m_Father: {fileID: 1606616110}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2117247671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117247664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee00b0ef2bf792f40a39d23cf0de4fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

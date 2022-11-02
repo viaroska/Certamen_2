@@ -4822,8 +4822,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: de46d9d91c0f54603bf583bae0f730d4, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -4922,4 +4922,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quienEmite: {fileID: 2103457938}
   elSonido: {fileID: 8300000, guid: de46d9d91c0f54603bf583bae0f730d4, type: 3}
-  volume: 1
+  volume: 4

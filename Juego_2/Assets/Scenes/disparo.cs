@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class disparo : MonoBehaviour
 {
+     
 
-
-    public Transform spawnPoint;
+    public Transform objetivo;
 
     public GameObject bullet;
 
@@ -34,9 +34,9 @@ public class disparo : MonoBehaviour
             {
                 GameObject newBullet;
 
-                newBullet = Instantiate(bullet, spawnPoint.position, spawnPoint.rotation);
+                newBullet = Instantiate(bullet, objetivo.position, objetivo.rotation);
 
-                newBullet.GetComponent<Rigidbody>().AddForce(spawnPoint.forward * shotForce);
+                newBullet.GetComponent<Rigidbody>().AddForce(objetivo.forward * shotForce);
 
                 shotRateTime = Time.time + shotRate;
 
@@ -45,10 +45,6 @@ public class disparo : MonoBehaviour
 
             }
         }
-        /// <summary>
-        /// //////////////////////////////////////////////77
-        /// </summary>
-
     }
 }
 

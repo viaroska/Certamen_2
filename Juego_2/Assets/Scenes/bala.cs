@@ -7,10 +7,9 @@ public class bala : MonoBehaviour
 {
 
 
-
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("enemigo"))
+        if (collision.gameObject.CompareTag("Enemigos1"))
         {
             
             Destroy(collision.gameObject);

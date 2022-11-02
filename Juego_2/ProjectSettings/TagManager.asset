@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Nombre1
   - enemigo
+  - Enemigos1
+  - eliminar
   layers:
   - Default
   - TransparentFX
